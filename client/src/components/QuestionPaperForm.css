@@ -1,0 +1,65 @@
+.question-paper-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .question-form {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .question-list {
+    flex: 1;
+  }
+  
+  .question-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .question-text {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .options {
+    color: #666;
+  }
+  
+  .delete-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c0392b;
+  }
+.flex{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}  
+.addquestions{
+    background-image: linear-gradient(45deg, #1407ff, #ff0000);
+  -webkit-background-clip: text; /* For Safari */
+  background-clip: text;
+  color: transparent;
+    
+}
+.Tittle{
+    display: flex;
+    /* flex-direction: column; */
+}
+.image{
+  width: 4vw;
+  height: 4vw;
+}

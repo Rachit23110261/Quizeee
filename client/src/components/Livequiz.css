@@ -1,0 +1,47 @@
+.options{
+    display: flex;
+}
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .option input[type="radio"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .option input[type="radio"]:checked::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: #000;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .option label {
+    cursor: pointer;
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    flex-grow: 1;
+    text-align: left;
+  }
+  
